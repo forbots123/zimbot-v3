@@ -23,7 +23,7 @@
 
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/forbots123/zimbot-v3
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/forbots123/zimbot-v3?organization=forbots123&organization=forbots123
 ## BUILD PACKS
 
 ```
