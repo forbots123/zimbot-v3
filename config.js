@@ -1,4 +1,3 @@
-
 // ⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈
 //▮ZIM BOT INC 2022 ®️ALL RIGHTS RESERVED
 //▮
@@ -7,9 +6,9 @@
 //▮THIS SOFTWARE IS UNDER UZ COPYRIGHT
 //▮
 //▮REPORT ABUSE OF THIS SOFTWARE EMAIL US
-//▮none
-//▮WHATSAPP US : +923229931076
-//▮YOUTUBE CHANNELL: none
+//▮reinhardtuna@mail.uk
+//▮WHATSAPP US : +44 7441 437150
+//▮YOUTUBE CHANNELL: https://youtube.com/c/DRIPSOFC
 //▮
 //╰▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 //
@@ -38,20 +37,20 @@ global.APIKeys = {
 
 // Other
 global.owner = ['923229931076','']
-global.premium = ['9232299310763','918188019676']
-global.botname = '𝔦𝔱𝔵_𝔦𝔟𝔯𝔞𝔥𝔦𝔪 BOT'
-global.ownername = '𝔦𝔱𝔵_𝔦𝔟𝔯𝔞𝔥𝔦𝔪'
-global.group1 = '𝔦𝔱𝔵_𝔦𝔟𝔯𝔞𝔥𝔦𝔪'
-global.group2 = '𝔦𝔱𝔵_𝔦𝔟𝔯𝔞𝔥𝔦𝔪'
-global.packname = 𝔦𝔱𝔵_𝔦𝔟𝔯𝔞𝔥𝔦𝔪 BOT'
-global.ytchannel = 'none'
-global.monayawal = '10000000000000'
-global.darahawal = '100000000000'
-global.besiAwal = '150000000000000'
-global.goldAwal = '1000000000000'
-global.emeraldAwal = '50000000000000'
-global.umpanAwal = '500000000000000'
-global.potionAwal = '100000000000'
+global.premium = ['923229931076','923229931076']
+global.botname = 'ZIM BOT INC'
+global.ownername = 'DRIPS'
+global.group1 = 'https://chat.whatsapp.com/EFsb8RCXV4jLEFk4eAcA1A'
+global.group2 = 'https://chat.whatsapp.com/HSfcYU13g5C8GxINWwSWoA'
+global.packname = '𝖎𝖙𝖝_𝖎𝖇𝖗𝖆𝖍𝖎𝖒 BOT INC'
+global.ytchannel = 'https://youtu.be/ww4z2m3uORU'
+global.monayawal = '100000'
+global.darahawal = '100'
+global.besiAwal = '15'
+global.goldAwal = '10'
+global.emeraldAwal = '5'
+global.umpanAwal = '5'
+global.potionAwal = '1'
 global.dripstyping = false
 global.dripsreadgroup = false
 global.dripsreadall = false
@@ -65,7 +64,7 @@ global.f3 = 'application/vnd.openxmlformats-officedocument.wordprocessingml.docu
 global.f4 = 'application/zip'
 global.f5 = 'application/pdf'
 global.f6 = 'application/vnd.android.package-archive'
-global.author = '𝔦𝔱𝔵_𝔦𝔟𝔯𝔞𝔥𝔦𝔪 BOT INC'
+global.author = 'ZIM BOT INC'
 global.flaming = 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text='
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
@@ -88,12 +87,12 @@ global.limitawal = {
     free: Infinity
 }
    global.rpg = {
-   darahawal: 100000000,
-   besiawal: 100000000005,
-   goldawal: 100000000000,
-   emeraldawal: 5000000000000,
-   umpanawal: 50000000000,
-   potionawal: 1000000
+   darahawal: 100,
+   besiawal: 15,
+   goldawal: 10,
+   emeraldawal: 5,
+   umpanawal: 5,
+   potionawal: 1
 }
 global.thumb = fs.readFileSync('./lib/hisoka.jpg')  
 global.bc = fs.readFileSync('./lib/bc.jpg')
@@ -118,4 +117,3 @@ fs.watchFile(file, () => {
 	console.log(chalk.redBright(`Update'${__filename}'`))
 	delete require.cache[file]
 	require(file)
-})
